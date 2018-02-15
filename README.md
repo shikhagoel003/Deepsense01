@@ -12,9 +12,13 @@ Yolo Tiny Link: https://drive.google.com/file/d/0B_GMfaURPvQDZVVFMnBXQUU3X2s/vie
 - 1) Download and extract the model
 - 2) Put the whole model's directory onto device's storage
 - 3) Change the path in MainActivity.java
+     
      Comment the line
+     
      private static String model_yolo_tiny = (new File(Environment.getExternalStorageDirectory(), "YoloModels/Yolo-Tiny-New-    Format")).getAbsolutePath();
+     
      instead write
+     
      private static String model_yolo_tiny = "/sdcard/Yolo-Tiny-New-Format";
 
      Same can be done for VGG network also.
