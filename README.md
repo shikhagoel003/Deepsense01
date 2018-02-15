@@ -24,10 +24,15 @@ Yolo Tiny Link: https://drive.google.com/file/d/0B_GMfaURPvQDZVVFMnBXQUU3X2s/vie
      Same can be done for VGG network also.
   
 - 4) copy one image onto your device's storage and provide its path in MainActivity.java
+      
       example: 
+      
       comment the line 
+      
       private String selectedImagePath = null;
+      
       and give the path of your image file
+      
       private String selectedImagePath ="/sdcard/IMG_20180108_181026061_BURST000_COVER_TOP~3.jpg";
 - 5) Run :)
 
